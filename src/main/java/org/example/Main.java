@@ -10,6 +10,7 @@ public class Main {
         System.out.println("name= ");
         String name=scanner.nextLine();
         System.out.println("name="+name);
+
         }
 
 }
