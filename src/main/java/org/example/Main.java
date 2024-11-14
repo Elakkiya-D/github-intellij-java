@@ -2,25 +2,18 @@ package org.example;
 
 public class Main {
     public static void main(String[] args) {
-         int friends=10;
-         friends=friends-1;
-        System.out.println(friends);
-         friends=friends+1;
-        System.out.println(friends);
-         friends=friends*9;
-        System.out.println(friends);
-         friends=friends/2;
-        System.out.println(friends);
-         friends=friends%2;
-         System.out.println(friends);
-         //increment operator
-        friends++;
-        System.out.println(friends);
-        friends--;
-        System.out.println(friends);
-        //integer division
-        double me=100;
-        me=me/3;
-        System.out.println(me);
+        //escape sequences
+        //here i want my name in double quotes
+        String name="my name is \"elakkiya\"";
+        System.out.println(name);
+        //newline
+        String newline="my name is \nelakkiya";
+        System.out.println(newline);
+        //tabspace
+        String tabSpace="my name is\telakkiya";
+        System.out.println(tabSpace);
+        //here i need slash\ in my code
+        String message="c:\\windows..\\...";
+        System.out.println(message);
           }
 }
