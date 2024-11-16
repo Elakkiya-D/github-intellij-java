@@ -1,21 +1,29 @@
 package org.example;
 
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
-      //if
-        int age=90;
-        if(age<=18){
-            System.out.println("your are an adult");
-        }
-        else if (age==18){
-            System.out.println("your 18");
-        }
-        else if(age==90){
-            System.out.println("your age is 90");
+
+     /*   Scanner scan= new Scanner(System.in);
+        System.out.println("press Q or q to quit the game");
+        String response=scan.next();
+        if(response.equals("q") || response.equals("Q")){
+            System.out.println("you quit the game");
         }
         else {
-            System.out.println("your not an adult");
+            System.out.println("your still playing");
+        }*/
+        Scanner scan= new Scanner(System.in);
+        System.out.println("press Q or q to quit the game");
+        String response=scan.next();
+        if(response.equals("q") && !response.equals("Q")){
+            System.out.println("you quit the game");
         }
+        else {
+            System.out.println("your still playing");
+        }
+
 
     }
 }
