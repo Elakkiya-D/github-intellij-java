@@ -18,10 +18,17 @@ import java.util.Scanner;
     public class Main {
     public static void main(String[] args){
      car mycar=new car();
+        car mycar2=new car();
+
      System.out.println(mycar.model);
      System.out.println(mycar.Price);
+        System.out.println(mycar2.model);
+        System.out.println(mycar2.Price);
      mycar.drive();
      mycar.brake();
+        mycar2.drive();
+        mycar2.brake();
+
 
     }
 
